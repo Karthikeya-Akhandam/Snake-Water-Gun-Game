@@ -11,6 +11,6 @@ def option(opt_user, opt_bot) :
     else :
         return "Bot"
 opt_bot = random.randint(1,3)
-opt_user = int(input("1. Snake\n2. Water\n3.Gun\nEnter your choice: "))
+opt_user = int(input("1. Snake\n2. Water\n3. Gun\nEnter your choice: "))
 print("Bot chose: ",opt_bot)
 print("Round won by: ",option(opt_user,opt_bot))
